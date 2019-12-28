@@ -1,0 +1,6 @@
+<?php
+$CONFIG['ldap_uri'] = '<LDAP URI>';
+$CONFIG['ldap_basedn'] = '<base DN>';
+$CONFIG['ldap_binddn'] = '<bind DN>';
+$CONFIG['ldap_bindpw'] = '<pw>';
+$CONFIG['authorized_users'] = array('<list@of>', '<allowed@emails>');

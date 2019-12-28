@@ -63,6 +63,8 @@ echo <<<EOT
 
 <div id="header">
   <h1><a href="{$html_weburl}">Collectd Graph Panel</a></h1>
+  <h1>User: {$_SESSION['user']}</h1>
+  <h1><a href="{$html_weburl}auth.php?logout">Logout</a></h1>
 </div>
 
 EOT;
